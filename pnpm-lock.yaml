@@ -1,0 +1,180 @@
+lockfileVersion: "6.0"
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  prettier-plugin-sql:
+    specifier: ^0.18.1
+    version: 0.18.1(prettier@3.4.1)
+
+devDependencies:
+  prettier:
+    specifier: ^3.4.1
+    version: 3.4.1
+  prettier-plugin-sql-cst:
+    specifier: ^0.12.0
+    version: 0.12.0
+
+packages:
+  /argparse@2.0.1:
+    resolution:
+      {
+        integrity: sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==,
+      }
+    dev: false
+
+  /big-integer@1.6.52:
+    resolution:
+      {
+        integrity: sha512-QxD8cf2eVqJOOz63z6JIN9BzvVs/dlySa5HGSBH5xtR8dPteIRQnBxxKqkNTiT6jbDTF6jAfrd4oMcND9RGbQg==,
+      }
+    engines: { node: ">=0.6" }
+    dev: false
+
+  /commander@2.20.3:
+    resolution:
+      {
+        integrity: sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==,
+      }
+    dev: false
+
+  /discontinuous-range@1.0.0:
+    resolution:
+      {
+        integrity: sha512-c68LpLbO+7kP/b1Hr1qs8/BJ09F5khZGTxqxZuhzxpmwJKOgRFHJWIb9/KmqnqHhLdO55aOxFH/EGBvUQbL/RQ==,
+      }
+    dev: false
+
+  /get-stdin@8.0.0:
+    resolution:
+      {
+        integrity: sha512-sY22aA6xchAzprjyqmSEQv4UbAAzRN0L2dQB0NlN5acTTK9Don6nhoc3eAbUnpZiCANAMfd/+40kVdKfFygohg==,
+      }
+    engines: { node: ">=10" }
+    dev: false
+
+  /jsox@1.2.121:
+    resolution:
+      {
+        integrity: sha512-9Ag50tKhpTwS6r5wh3MJSAvpSof0UBr39Pto8OnzFT32Z/pAbxAsKHzyvsyMEHVslELvHyO/4/jaQELHk8wDcw==,
+      }
+    hasBin: true
+    dev: false
+
+  /moo@0.5.2:
+    resolution:
+      {
+        integrity: sha512-iSAJLHYKnX41mKcJKjqvnAN9sf0LMDTXDEvFv+ffuRR9a1MIuXLjMNL6EsnDHSkKLTWNqQQ5uo61P4EbU4NU+Q==,
+      }
+    dev: false
+
+  /nearley@2.20.1:
+    resolution:
+      {
+        integrity: sha512-+Mc8UaAebFzgV+KpI5n7DasuuQCHA89dmwm7JXw3TV43ukfNQ9DnBH3Mdb2g/I4Fdxc26pwimBWvjIw0UAILSQ==,
+      }
+    hasBin: true
+    dependencies:
+      commander: 2.20.3
+      moo: 0.5.2
+      railroad-diagrams: 1.0.0
+      randexp: 0.4.6
+    dev: false
+
+  /node-sql-parser@4.18.0:
+    resolution:
+      {
+        integrity: sha512-2YEOR5qlI1zUFbGMLKNfsrR5JUvFg9LxIRVE+xJe962pfVLH0rnItqLzv96XVs1Y1UIR8FxsXAuvX/lYAWZ2BQ==,
+      }
+    engines: { node: ">=8" }
+    dependencies:
+      big-integer: 1.6.52
+    dev: false
+
+  /prettier-plugin-sql-cst@0.12.0:
+    resolution:
+      {
+        integrity: sha512-/lQXwmUhavVB8poTmPy7gcogLYbU/6yGQKS5DYjP0Lv2Swg05rlz7Ky2XMZDnS3SHYluhq5g85sFlZ78BcbhjA==,
+      }
+    dependencies:
+      prettier: 3.4.1
+      sql-parser-cst: 0.30.0
+    dev: true
+
+  /prettier-plugin-sql@0.18.1(prettier@3.4.1):
+    resolution:
+      {
+        integrity: sha512-2+Nob2sg7hzLAKJoE6sfgtkhBZCqOzrWHZPvE4Kee/e80oOyI4qwy9vypeltqNBJwTtq3uiKPrCxlT03bBpOaw==,
+      }
+    engines: { node: ^14.18.0 || >=16.0.0 }
+    peerDependencies:
+      prettier: ^3.0.3
+    dependencies:
+      jsox: 1.2.121
+      node-sql-parser: 4.18.0
+      prettier: 3.4.1
+      sql-formatter: 15.4.6
+      tslib: 2.8.1
+    dev: false
+
+  /prettier@3.4.1:
+    resolution:
+      {
+        integrity: sha512-G+YdqtITVZmOJje6QkXQWzl3fSfMxFwm1tjTyo9exhkmWSqC4Yhd1+lug++IlR2mvRVAxEDDWYkQdeSztajqgg==,
+      }
+    engines: { node: ">=14" }
+    hasBin: true
+
+  /railroad-diagrams@1.0.0:
+    resolution:
+      {
+        integrity: sha512-cz93DjNeLY0idrCNOH6PviZGRN9GJhsdm9hpn1YCS879fj4W+x5IFJhhkRZcwVgMmFF7R82UA/7Oh+R8lLZg6A==,
+      }
+    dev: false
+
+  /randexp@0.4.6:
+    resolution:
+      {
+        integrity: sha512-80WNmd9DA0tmZrw9qQa62GPPWfuXJknrmVmLcxvq4uZBdYqb1wYoKTmnlGUchvVWe0XiLupYkBoXVOxz3C8DYQ==,
+      }
+    engines: { node: ">=0.12" }
+    dependencies:
+      discontinuous-range: 1.0.0
+      ret: 0.1.15
+    dev: false
+
+  /ret@0.1.15:
+    resolution:
+      {
+        integrity: sha512-TTlYpa+OL+vMMNG24xSlQGEJ3B/RzEfUlLct7b5G/ytav+wPrplCpVMFuwzXbkecJrb6IYo1iFb0S9v37754mg==,
+      }
+    engines: { node: ">=0.12" }
+    dev: false
+
+  /sql-formatter@15.4.6:
+    resolution:
+      {
+        integrity: sha512-aH6kwvJpylljHqXe+zpie0Q5snL3uerDLLhjPEBjDCVK1NMRFq4nMJbuPJWYp08LaaaJJgBhShAdAfspcBYY0Q==,
+      }
+    hasBin: true
+    dependencies:
+      argparse: 2.0.1
+      get-stdin: 8.0.0
+      nearley: 2.20.1
+    dev: false
+
+  /sql-parser-cst@0.30.0:
+    resolution:
+      {
+        integrity: sha512-izm1h9QuQT39jnQfl/UiEdkNaprAKSPA1WSdlR5jJuArui6e6/j9E4z9p8VE07qKbNPhDrPCJl+qGoKTbjHwbw==,
+      }
+    dev: true
+
+  /tslib@2.8.1:
+    resolution:
+      {
+        integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==,
+      }
+    dev: false
